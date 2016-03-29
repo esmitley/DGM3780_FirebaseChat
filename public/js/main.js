@@ -1,7 +1,7 @@
 //This is where the JS magig happens
 
   // Add Ref to Firebase
-	var messagesRef = new esclasschat.firebaseio.com
+	var messagesRef = new Firebase('https://esclasschat.firebaseio.com/');
 
   // Register the Dom Elaments with jQuery
   var messageField = $('#messageInput');
